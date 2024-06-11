@@ -1,0 +1,92 @@
+body {
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo {
+    padding: 10px 0 10px 0;
+    height: 750px;
+    background: url(../img/bg_sec_promo2.jpg) center center / cover no-repeat;
+}
+
+.navbar {
+    margin-top: 4%;
+    border: 1px solid black;
+    transition: all 0.5s;
+    background-color: rgba(0, 0, 0, .5);
+    &:hover {
+        box-shadow: 12px 12px 2px 1px rgb(176, 5, 176);
+    }
+}
+
+.nav_wrapper {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.list_item {
+    padding: 5px;
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: rgba(253, 253, 253);
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    &:hover {
+        color: rgba(253, 253, 253);
+    }
+}
+.link::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    transition: 0.8s all;
+    background-color: pink;
+}
+
+.link:hover::before {
+    width: 100%;
+}
+
+.carousel {
+    height: 750px;
+}
+
+.carousel_inner {
+    margin: 0 auto;
+    margin-top: 4%;
+    width: 650px;
+    height: 700px;
+}
+
+.carousel-item {
+    height: 650px;
+}
+
+.heading_dogs {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 50px;
+    height: 50px;
+}

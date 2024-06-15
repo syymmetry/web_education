@@ -9,19 +9,19 @@ body {
 }
 
 .promo {
-    padding: 10px 0 10px 0;
-    height: 750px;
-    background: url(../img/bg_sec_promo2.jpg) center center / cover no-repeat;
+    padding: 0px 0 10px 0;
+    height: 970px;
+    background: url(../img/bg_promo2.jpg) center center / cover no-repeat;
 }
 
 .navbar {
-    margin-top: 4%;
+    /*margin-top: 4%;*/
     border: 1px solid black;
     transition: all 0.5s;
     background-color: rgba(0, 0, 0, .5);
-    &:hover {
+    /*&:hover {
         box-shadow: 12px 12px 2px 1px rgb(176, 5, 176);
-    }
+    }*/
 }
 
 .nav_wrapper {
@@ -50,7 +50,7 @@ body {
         color: rgba(253, 253, 253);
     }
 }
-.link::before {
+/*.link::before {
     content: '';
     display: block;
     position: absolute;
@@ -60,33 +60,69 @@ body {
     width: 0%;
     transition: 0.8s all;
     background-color: pink;
-}
+}*/
 
 .link:hover::before {
     width: 100%;
 }
 
-.carousel {
-    height: 750px;
+.carousel_main {
+    padding: 5px 0px 5px 0px;
+    height: 850px;
 }
 
 .carousel_inner {
+    position: relative;
     margin: 0 auto;
-    margin-top: 4%;
     width: 650px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.carousel_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.infobox {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 450px;
+}
+
+.carousel-inner {
     height: 700px;
 }
 
 .carousel-item {
-    height: 650px;
+    height: 690px;
 }
 
 .heading_dogs {
+    margin-top: 15px;
     font-size: 18px;
     font-weight: 500;
 }
 
 .carousel-control-prev, .carousel-control-next {
+    width: 35px;
+    height: 35px;
+}
+
+.img_control {
+    position: absolute;
+    top: 335px;
     width: 50px;
     height: 50px;
+    background: url(../img/lapus.svg);
+}
+
+.left_control {
+    right: 63px;
+}
+
+.right_control {
+    left: 63px;
 }

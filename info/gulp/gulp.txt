@@ -1,0 +1,12 @@
+npm init (Инициализируем пакет для нашего проекта)
+npm install --global gulp-cli (Глобальная установка пакета gulp-cli)
+npm install gulp-cli --save-dev (Локальная установка gulp-cli)
+npm install gulp --save-dev
+npm i gulp-sass --save-dev (Локальная установка пакета sass)
+npm i browser-sync --save-dev (Браузер-синк для автообновления страницы и реакции на изменения документа/ сайт: https://www.npmjs.com/package/browser-sync)
+npm i gulp-autoprefixer --save-dev (Автопрефексер сайт: https://www.npmjs.com/package/gulp-autoprefixer)
+npm i gulp-autoprefixer@8.0.0 --save-dev (тк на 21.11.2023 - версия 9.0.0 - ещй не обкатана, не работает)
+npm i gulp-clean-css --save-dev
+npm i gulp-rename --save-dev 
+npm install sass gulp-sass --save-dev (!!!)
+npm install --save-dev gulp-imagemin (сжатие img файлов ) - npm i gulp-imagemin@7.1.0 (актуальная версия)

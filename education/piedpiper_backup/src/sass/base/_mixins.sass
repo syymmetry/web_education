@@ -1,0 +1,28 @@
+=blacklabel
+    &:hover
+        background-color: #000
+        min-height: 80px
+    
+=pide_piper_logo
+    &:hover
+        box-shadow: 10px 5px 5px #cc0000
+        border-radius: 7%
+
+=underline
+    &::before
+        content: ''
+        display: block
+        position: absolute
+        bottom: -5px
+        left: 0
+        height: 2px
+        width: 0%
+        transition: 0.8s all
+        background-color: $base_white
+    &:hover
+        &::before
+            width: 100%
+
+/* =widthfoto
+    &:hover
+        width: 40% */

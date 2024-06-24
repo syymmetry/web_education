@@ -1,0 +1,1 @@
+Документация ESlint https://eslint.org/
